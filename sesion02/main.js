@@ -2,11 +2,10 @@
 Imprimir en pantalla todos los divisores de 1 a 100 de un número entero
 ------------------------------------------ */
 const divisores = (numero) => {
-  for(let x=1;x<=100;x++)
-    {
-      if (numero%x==0) console.log(x);
-    }
-}
+  for (let x = 1; x <= 100; x++) {
+    if (numero % x == 0) console.log(x);
+  }
+};
 
 divisores(9);
 
@@ -14,25 +13,27 @@ divisores(9);
 Comprobar si un número es par. Devolver un truly si es par o falsy si es impar
 */
 const pares = (numero) => {
-	if (numero%2==0) {
- 	 	return true;
-		} else{
+  if (numero % 2 == 0) {
+    return true;
+  } else {
     return false;
-  	}
-	}
-pares(250)
+  }
+};
+
+pares(250);
 
 /* Ejercicio 3
 Crear una función que sume dos números y devuelva el resultado
 */
-const suma = (numero1,numero2) => {
-  return numero1+numero2;
-}
-console.log(suma(125,386))
+const suma = (numero1, numero2) => {
+  return numero1 + numero2;
+};
+console.log(suma(125, 386));
 
 const getPi = () => {
-  return 3.1416
-}
+  return 3.1416;
+};
+
 getPi();
 
 /* Ejercicio 4
@@ -49,12 +50,12 @@ const empleado3 = 15000;
 const empleado4 = 17000;
 const empleado5 = 26000;
 
-const incSueldo = (sueldo,antiguedad) => {
-  if(antiguedad>=15) sueldo=sueldo*1.20;
-  else if (antiguedad>=10) sueldo=sueldo*1.15;
-  else if (antiguedad>=5) sueldo=sueldo*1.07;
-  else if (antiguedad<5) sueldo=sueldo*1.03;
+const incSueldo = (sueldo, antiguedad) => {
+  if (antiguedad >= 15) sueldo = sueldo * 1.2;
+  else if (antiguedad >= 10) sueldo = sueldo * 1.15;
+  else if (antiguedad >= 5) sueldo = sueldo * 1.07;
+  else if (antiguedad < 5) sueldo = sueldo * 1.03;
   return sueldo;
-}
+};
 
-console.log('El nuevo sueldo es ' +incSueldo(empleado4,15));
+console.log("El nuevo sueldo es " + incSueldo(empleado4, 15));
