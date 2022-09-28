@@ -20,3 +20,22 @@ pagosIphone();
 
 console.log('Lo pagado en 12 meses sería $'+sumaPagos);
 console.log('Intereses pagados: $'+(sumaPagos-precioIphone14))
+
+/* VARIANTE CON VARIABLES LOCALES
+---------------------------------------------------------------
+const precioIphone14 = 28999;
+
+console.log('Pagos Mensuales');
+let pago1 = 1000;
+let sumaPagos = 0;
+const pagosIphone = () => {
+  for(let x=1;x<=12;x++){
+    sumaPagos=sumaPagos+(x*pago1);
+    console.log('Pago '+x+' es de '+(x*pago1));
+  }
+console.log('Lo pagado en 12 meses sería $'+sumaPagos);
+console.log('Intereses pagados: $'+(sumaPagos-precioIphone14))
+}
+pagosIphone();
+---------------------------------------------------------------
+*/
