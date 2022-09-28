@@ -1,14 +1,14 @@
 /* Ejercicio 1
 Imprimir en pantalla todos los divisores de 1 a 100 de un número entero
-------------------------------------------
+------------------------------------------ */
 const divisores = (numero) => {
-  for(let x=1;x++;x=100)
+  for(let x=1;x<=100;x++)
     {
-      if (numero%x==0) console.log(numero);
+      if (numero%x==0) console.log(x);
     }
 }
+
 divisores(9);
-*/
 
 /* Ejercicio 2
 Comprobar si un número es par. Devolver un truly si es par o falsy si es impar
