@@ -2,8 +2,8 @@
 
 const diezPrimerasPotencias = (numero) => {
     for(let i=1;i<=10;i++) {
-      console.log(Math.pow(numero, i));
+      console.log(numero**i);
     }
   }
   
-  diezPrimerasPotencias(4);
+  diezPrimerasPotencias(5);
