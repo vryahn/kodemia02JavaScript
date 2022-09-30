@@ -7,14 +7,14 @@ const getNumbers = () => {
   let getOut = false;
   do {
     num[i] = Number(prompt("Introduzca número " + (i + 1) + ": "));
-    if(num[i]>=1&&num[i]<=5) getOut=true;
+    if (num[i] >= 1 && num[i] <= 5) getOut = true;
     i++;
-  } while(getOut==false);
+  } while (getOut == false);
 };
 
 const printNumbers = () => {
-    for(let i=0;i<num.length;i++) console.log(num[i]);
-}
+  for (let i = 0; i < num.length; i++) console.log(num[i]);
+};
 
 getNumbers();
 printNumbers();
