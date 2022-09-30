@@ -6,3 +6,17 @@
 ****
 *****
 */
+
+let num = 2; //Number(prompt("Ingrese numero aqui mero: "));
+
+const triangle = (s) => {
+    for(let i=1;i<=s;i++)
+    {
+        for(let x=1;x<=s;x++)
+        {
+          console.log("*");
+        } 
+    }
+}
+
+triangle(num);
