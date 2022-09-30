@@ -7,15 +7,14 @@
 *****
 */
 
-let num = 2; //Number(prompt("Ingrese numero aqui mero: "));
-
+let num = Number(prompt("Ingrese numero aqui mero: "));
+let a= "*";
+let b= "*";
 const triangle = (s) => {
     for(let i=1;i<=s;i++)
-    {
-        for(let x=1;x<=s;x++)
-        {
-          console.log("*");
-        } 
+    {        
+      console.log(a);
+      a=a+b;
     }
 }
 
