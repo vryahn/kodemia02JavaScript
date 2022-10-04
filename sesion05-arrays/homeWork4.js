@@ -3,10 +3,8 @@
 const getPosition = () => {
   let frase = ([] = prompt("Ingrese la frase a buscar"));
   let letra = prompt("Ingrese letra a buscar");
-  let trys = 0;
 
   for (i = 0; i < frase.length; i++) {
-    trys++;
     if (frase[i] != letra)
       console.log("No hay coincidencia en la posición " + i);
     else {

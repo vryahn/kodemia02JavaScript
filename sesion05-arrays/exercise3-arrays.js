@@ -32,7 +32,7 @@ for (let i = 0; i < arrayIsoled.length; i++)
     arrayCount[i]=0;
   }
 
-// Ahora compararemos veremos para cada elemento de arrayIsoled, cuantas veces aparece en el arreglo original, y guardaremos cada aparicion del elemento en arrayCount
+// Ahora veremos para cada elemento de arrayIsoled, cuantas veces aparece en el arreglo original, y guardaremos cada aparicion del elemento en arrayCount
   
 for (let i = 0; i < arrayIsoled.length; i++)
   {
