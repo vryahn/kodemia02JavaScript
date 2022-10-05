@@ -16,15 +16,15 @@ const quickSort = (arr) => {
   for (let i = 0; i < arr.length; i++) {
     // Luego comience a recorrer la matriz, los elementos más pequeños que "base" se colocan en el subconjunto izquierdo y los elementos más grandes que la base se colocan en el subconjunto derecho.
     if (arr[i] < pivot) {
-      left.push(arr[i]);
+      left[left.length] = arr[i];
     } else {
-      right.push(arr[i]);
+      right[right.length] = arr[i];
     }
   }
   return quickSort(left).concat(pivot, quickSort(right)); // Usa la recursión para repetir este proceso continuamente, puedes obtener la matriz ordenada.
 };
 
 let a = quickSort(myArr);
-console.log('La puntuación mas baja fue: '+a[0]);
+console.log("La puntuación mas baja fue: " + a[0]);
 
 // WARNING: ESTE CÓDIGO ME LO FUSILÉ DE INTERNET, AUN LO ESTOY ESTUDIANDO
