@@ -8,7 +8,7 @@ const requireChars = (unirElementos,imprimirFrase) => {
     {
       letras[i] = prompt('Ingrese Caracter: ');
     }
-  printPhrase(putTogheterElements(letras));
+    imprimirFrase(unirElementos(letras));
 }
 
 const putTogheterElements = chars => {
@@ -20,4 +20,4 @@ const printPhrase = chain => {
   console.log('La frase generada con tus carácteres es: '+chain);
 }
 
-requireChars();
+requireChars(putTogheterElements,printPhrase);
