@@ -1,5 +1,5 @@
 // Ejemplo 8. Arrow Functions
 
-const trinomioCuadradoPerfecto = (num1,num2) => (Math.pow(num1,2)+(2*num1*num2+Math.pow(num2,2)))
+const trinomioCuadradoPerfecto = (num1,num2) => (Math.pow(num1,2)+(2*num1*num2+Math.pow(num2,2)));
 
-console.log(trinomioCuadradoPerfecto(2,5))
+console.log(trinomioCuadradoPerfecto(2,5));
