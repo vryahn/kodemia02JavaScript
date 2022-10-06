@@ -91,5 +91,27 @@ const printResult = () => {
     }
 }
 
+let mayor = arrayCount[0];
+console.log(mayor);
+let mayorIndex;
+  for(let i=1;i<=arrayCount.length;i++)
+    {
+      if(mayor<arrayCount[i]) 
+      {
+        mayor = arrayCount[i];
+        mayorIndex = i;
+      }
+    }
+console.log(mayor);
+
+let bestSeller;
+for(key in products){
+  if(arrayIsoled[mayorIndex]==products[key].sku) {
+    bestSeller = products[key].descripcion;
+    break;
+  }
+}
+
+
 countingRepeated();
-printResult();
+console.log('El producto más vendido se vendio: '+mayor+' veces y fue: '+bestSeller);
