@@ -23,15 +23,6 @@ do {
   choice = confirm('Vendió más productos?');
 } while(choice);
 
-
-const bestSeller = (products) => {
-  let bestSeller = 0;
-  for(key in products){
-    
-  }
-}
-
-
 const totalSells = (products) => {
   let sells = 0;
   for(key in products)
@@ -40,4 +31,4 @@ const totalSells = (products) => {
         } return sells;
 }
 
-totalSells(products);
+console.log('El total vendido fue de : '+totalSells(products));
