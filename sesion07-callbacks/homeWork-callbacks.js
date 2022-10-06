@@ -12,8 +12,9 @@ const requireChars = (unirElementos,imprimirFrase) => {
 }
 
 const putTogheterElements = chars => {
-  chars = chars.toString();
-  return chars;
+  let charsChain = '';
+  for(const char of chars) charsChain+=char;
+  return charsChain;
 }
 
 const printPhrase = chain => {
