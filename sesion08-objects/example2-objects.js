@@ -30,7 +30,7 @@ const crearEstudiante = (nombre='',apellido='',carrera='',matricula='',promedio=
   sumaPromedios = 0;
     for(key in estudiantes)
     {
-      sumaPromedios+=number(estudiantes[key].promedio);
+      sumaPromedios+=Number(estudiantes[key].promedio);
     }
   
   let promedioGeneracion = sumaPromedios/estudiantes.length;
