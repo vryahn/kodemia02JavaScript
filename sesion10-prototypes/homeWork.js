@@ -1,6 +1,5 @@
 /* homeWork.
-Dado un arreglo de nombres de archivo con su extensión, imprime en consola la extensión del archivo, el nombre del archivo en minúsculas, así como conocer si contienen la cadena "kodemia" en el nombre.
-*/
+Dado un arreglo de nombres de archivo con su extensión, imprime en consola la extensión del archivo, el nombre del archivo en minúsculas, así como conocer si contienen la cadena "kodemia" en el nombre. */
 
 const files = ["Kodemia.txt", "temario.docx", "main.js", "index.html"];
 
@@ -30,11 +29,10 @@ lowerNames(files);
 // Funcion c). Conocer si contienen la cadena "kodemia" en el nombre.
 
 const loofForKodemia = (archivos) => {
-    for(archivo of archivos){
-    if(archivo.search('kodemia')>=0 || archivo.search('Kodemia')>=0)
-      {
-        console.log('Encontrado')
-      }
+  for (archivo of archivos) {
+    if (archivo.search("kodemia") >= 0 || archivo.search("Kodemia") >= 0) {
+      console.log("Aqui esta jijiji");
     }
-  };
-  loofForKodemia(files);
+  }
+};
+loofForKodemia(files);
