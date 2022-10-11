@@ -131,8 +131,5 @@ edades;
 
 // reduce. Ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor.
 
-const sumaEdades = edades.reduce((prev,actual)=>{
-  return prev+actual;
-},0);
-
-sumaEdades;
+const sumaEdades = edades.reduce((sum,element)=>sum+element,0); // sintaxis reduce: ((callback cuyos argumentos son contadorparasumar y elemntos del arreglo, y una suma de ambos),valor inicial de contadorparasumar)
+console.log(sumaEdades);
