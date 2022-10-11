@@ -37,3 +37,40 @@ superHeroes.findIndex((item)=>{
   console.log(item)
   return item==='Batman'
 });
+
+const heroes = [{
+  nombre:'Peter Parker',
+  alias:'Spider-man',
+  poder:'Trepar como araña'
+},
+{
+	nombre:'Bruce Wayne',
+  alias:'Batman',
+  poder:'Ninguno'
+},
+{
+	nombre:'La Usurpadora',
+  alias:'Ella mera',
+  poder:'Ninguno'
+}]
+
+const indexSpiderman = heroes.findIndex((heroe)=>heroe.poder==='Ninguno');
+console.log(indexSpiderman);
+
+// find. Devuelve el valor del primer elemento que cumple con la funcion proporcionada.
+const buscaSpiderman = heroes.find((heroe)=>heroe.poder==='Ninguno');
+console.log(buscaSpiderman);
+
+// IMPORTANTE: find y findIndex deben usar callbacks que devuelvan verdadero/falso para funcionar correctamente.
+
+// pop. Devuelve el ultimo elemento del arreglo y borra su contenido.
+const ultimoHeroe = heroes.pop();
+console.log(ultimoHeroe);
+
+// push. Inserta nuevos elementos al final del arreglo
+heroes.push({
+  nombre: '',
+  alias:'She Hulk',
+  poder:'Super Fuerza'
+});
+console.log(heroes);
