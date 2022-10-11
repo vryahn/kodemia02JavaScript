@@ -74,3 +74,27 @@ heroes.push({
   poder:'Super Fuerza'
 });
 console.log(heroes);
+
+// reverse. Invierte el orden de todos los elementos en un arreglo.
+
+const villanos = ['Venom','Boba Fet','Soraya Montenegro','Karla Panini']
+
+villanos.reverse()
+villanos.reverse().reverse().reverse();
+
+// sort. Ordena los elementos en un arreglo
+
+const numeros = [1,4,5,7,8,34,453,23,34,2342,45646,234]
+
+numeros.sort(); // ordenar alfabeticamente
+numeros.sort((a,b)=>a-b); // ordenar por valor de números
+
+numeros.sort((a,b)=>{
+  if(a>b){
+    return 1;
+  }
+  if(a>b){
+    return -1;
+  }
+  return 0;
+}); // ordenar por valor de números
