@@ -98,3 +98,41 @@ numeros.sort((a,b)=>{
   }
   return 0;
 }); // ordenar por valor de números
+
+// filter. Recibe un callback true/false y devuelve todos los elementos que cumplan con la función.
+
+const edades = [17,19,20,30,25,19,45,29,15];
+
+const menoresEdad = edades.filter((edad)=>edad<18);
+console.log(menoresEdad);
+
+const mayoresEdad = edades.filter((edad)=>edad>=18);
+console.log(mayoresEdad);
+
+// slice. Devuelve posiciones del arreglo, lo que hay entre un index y una posición
+
+const primerosElementos = edades.slice(1,5);
+console.log(primerosElementos);
+
+// unshift. Agrega uno o más elementos al inicio del arreglo
+
+edades.unshift(100);
+edades;
+
+// shift. Devuelve el primer elemento del arreglo y lo elemina del arreglo
+
+edades.shift();
+edades;
+
+//splice. Devuelve los elementos que se encuetran desde el inidice indicado, la cantidad de elementos indicada
+
+edades.splice(0,3)
+edades;
+
+// reduce. Ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor.
+
+const sumaEdades = edades.reduce((prev,actual)=>{
+  return prev+actual;
+},0);
+
+sumaEdades;
