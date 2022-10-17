@@ -161,7 +161,7 @@ const objetoNuevo = vengadoress.reduce((prev,actual,index)=>{
 
 console.log(objetoNuevo);
 
-// Reduce. Ejemplo 2
+// Reduce. Ejemplo 2.
 
 const numerox = [1,1,1,1,1,6,6,6,6,8,8,8,8,10,10,34,34,56];
 
