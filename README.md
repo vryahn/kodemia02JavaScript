@@ -12,6 +12,6 @@ Segundo Módulo - Aplicaciones Web con JavaScript Vanilla
 * 06. Objetos
 * 07. Prototypes y Métodos de String
 * 08. Métodos de Array
-* 09 - Map y Reduce
-* 10 - Date, Math y conversiones
-* 12- Dom
+* 09. Map y Reduce
+* 10. Date, Math y conversiones
+* 12. Dom
