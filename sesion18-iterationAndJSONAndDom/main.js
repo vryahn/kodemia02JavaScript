@@ -2,7 +2,7 @@
 
 const body = document.querySelector("body");
 const content = document.createElement("section");
-body.appendChild(content); 
+body.appendChild(content);
 content.classList.add("d-flex", "flex-wrap");
 
 const cardCreation = (imagen, nombre, descripcion) => {
