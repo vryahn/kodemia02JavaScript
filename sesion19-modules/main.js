@@ -19,9 +19,15 @@ export function sumarDosNumeros(num1,num2) {
 // Importar módulo. Si se desea utilizar la función solo se debe importar el archivo, así como extraer/recuperar la función. Al hacer uso del import automáticamente el archivo que solicite el recurso se vuelve un módulo.
 import {sumarDosNumeros} from './operaciones.js';
 const suma = sumarDosNumeros(1,2);
+console.log(suma);
 
 // El navegador debe conocer que el script a importar es un módulo por eso debe añadir la propiedad type en la etiqueta script.
 <body>
     <script src="./main.js" type="module"></script>
 </body>
 */
+
+import * as Operaciones from './Operaciones.js';
+
+const resultado = sumarDosNumeros(4,10);
+console.log(resultado);
