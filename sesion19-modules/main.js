@@ -27,7 +27,4 @@ console.log(suma);
 </body>
 */
 
-import * as Operaciones from './Operaciones.js';
-
-const resultado = sumarDosNumeros(4,10);
-console.log(resultado);
+import * data from './data';
