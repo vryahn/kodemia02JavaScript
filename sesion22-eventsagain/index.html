@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1 id="test-event">
-        Este va a ser el evento
-    </h1>
-<form action="">
-    <input type="email" />
-    <input type="password" />
-    <button type="submit">Iniciar sesión</button>
-    <button type="reset">Limpiar</button>
-</form>
+  </head>
+  <body>
+    <h1 id="test-event">Iniciar sesión</h1>
 
+    <form id="login-form" action="/showdata.html" method="POST">
+      <input
+        id="login-form__email"
+        name="email"
+        type="email"
+        placeholder="Correo Electrónico"
+      />
+      <input
+        id="login-form__password"
+        name="password"
+        type="password"
+        placeholder="Contraseña"
+      />
+      <label for="remember">Recuerdame</label>
+      <input id="login-form__rememberme" name="remember" type="checkbox" />
+      <button id="login-form__submit-btn" type="submit">Iniciar Sesión</button>
+      <button id="login-form__reset-btn" type="reset">Limpiar</button>
+    </form>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
