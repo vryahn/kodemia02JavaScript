@@ -2,8 +2,6 @@
 
 ## Eventos
 
-### Eventos de Teclado
-
 #### keydown / mousedown
 
 Ocurre cuando la tecla/botón se presiona y llega abajo
@@ -12,5 +10,7 @@ Ocurre cuando la tecla/botón se presiona y llega abajo
 
 Ocurre cuando se presiona la tecla/botón y este llega arriba nuevamente
 
-#### keypress
 
+## Formularios
+
+La acción por default del tipo "reset" es limpiar los input que se tengan dentro del mismo form.
