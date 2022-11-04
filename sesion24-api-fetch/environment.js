@@ -1,5 +1,5 @@
 const environment = {
-    urlDb: 'https://hey-arnold-default-rtdb.firebaseio.com/'
+    urlDb: 'https://todo-list-9a34f-default-rtdb.firebaseio.com'
 }
 
 export default environment;
