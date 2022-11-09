@@ -1,3 +1,4 @@
+import createItemList from "./components/itemList";
 // Tasks Container
 const tasksContainer = document.getElementById('tasksContainer');
 
