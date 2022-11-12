@@ -17,9 +17,9 @@
   <body>
     <h1 class="mt-2 text-center">toDo List</h1>
     <main class="container">
-      <div class="d-flex justify-content-center">
-        <input type="text" name="" id="" class="form-control" />
-        <button class="ms-5 btn btn-success">Nueva tarea</button>
+      <div class="d-flex justify-content-center" id="new-task_form">
+        <input type="text" name="" id="new-task_description" class="form-control" />
+        <button class="ms-5 btn btn-success" type="submit" id="new-task_button">Nueva tarea</button>
       </div>
       <div id="task-container">
         <div id="task" class="card mt-3">
@@ -31,10 +31,14 @@
                 dolorem odio? Sed dolorem, atque officia excepturi maiores
                 aspernatur numquam velit saepe eveniet nisi.
               </p>
-              <button class="btn btn-primary">Editar</button>
-              <button class="btn btn-danger">Eliminar</button>
-            </div>
-            <input type="checkbox" name="" id="" class="form-check-input" />
+              <div class="d-flex justify-content-around">
+              <div>
+                <button class="btn btn-primary">Editar</button>
+                <button class="btn btn-danger">Eliminar</button>
+              </div>
+              <input type="checkbox" name="" id="" class="form-check-input" />
+            </div></div>
+            
           </div>
         </div>
       </div>
