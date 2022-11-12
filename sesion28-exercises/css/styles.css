@@ -1,3 +1,11 @@
+* {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
 .btn {
   min-height: 100px;
+}
+
+.btn1 :hover {
+  background-color: red !important;
 }/*# sourceMappingURL=styles.css.map */
