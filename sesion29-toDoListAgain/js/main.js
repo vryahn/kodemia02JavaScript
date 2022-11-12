@@ -19,11 +19,10 @@ newTaskBtn.addEventListener("click", () => {
   }).then((res) => {
     return res.json()
   }).then((data) => {
-    const.log("Recibí estos datos :", data);
+    console.log("Recibí estos datos :", data);
   }).catch((err)=> {
     console.error("Ocurrió un error: ", err);
   });
-
   console.log("Nueva tarea", newTask);
 });
 
